@@ -11,8 +11,10 @@ services:
     image: "php:5.3-apache"
     volumes:
       - ".:/var/www/html"
+      - "./etc/apache_default:/etc/apache2/sites-available/000-default.conf"
+      - "./etc/htaccess:/var/www/html/.htaccess"
     ports:
-      - "8000:80"
+      - "8080:80"
     environment:
       DB_HOST: "db"
       DB_PASS: "toor"
