@@ -43,7 +43,7 @@ Using [docker-compose](https://docs.docker.com/compose/) you can simply:
 docker-compose up
 ```
 
-Browse to the labs on http://localhost:8000, then click on `Setup/reset Database for labs` and follow up the instructions in the [YouTube video series](https://www.youtube.com/watch?v=NJ9AA1_t1Ic&list=PLkiAz1NPnw8qEgzS7cgVMKavvOAdogsro&index=23).
+Browse to the labs on http://localhost:8080, then click on `Setup/reset Database for labs` and follow up the instructions in the [YouTube video series](https://www.youtube.com/watch?v=NJ9AA1_t1Ic&list=PLkiAz1NPnw8qEgzS7cgVMKavvOAdogsro&index=23).
 
 ![Lessons](index.html_files/injection_types.png)
 
