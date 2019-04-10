@@ -55,7 +55,7 @@ Browse to the labs on http://localhost:8000, then click on `Setup/reset Database
 3. Open the file `db-creds.inc` which is under sql-connections folder inside the sql-labs folder.
 4. Update your MYSQL database username and password.(default for Backtrack are used root:toor)
 5. From your browser access the sql-labs folder to load `index.html`
-6. Click on the link `setup/`resetDB` to create database, create tables and populate Data.
+6. Click on the link `setup/resetDB` to create database, create tables and populate Data.
 7. Labs ready to be used, click on lesson number to open the lesson page.
 8. Enjoy the labs
 
