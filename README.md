@@ -35,7 +35,7 @@ Following labs are covered for GET and POST scenarios:
 
 ## Installation
 
-### The easy way
+### The easy way (with docker)
 
 Using [docker-compose](https://docs.docker.com/compose/) you can simply:
 
@@ -47,7 +47,12 @@ Browse to the labs on http://localhost:8080, then click on `Setup/reset Database
 
 ![Lessons](index.html_files/injection_types.png)
 
-### The hard way
+#### connect in to sql server
+1. Use `docker ps` find `mysql:5.7`'s container ID
+2. use `docker inspect {{ID}}` check the container's IPAddress
+3. `mysql -u root -P 3306 -h {{IPAddress}} -p` password: toor
+
+### The hard way (deploy in your own environment)
 
 1. Unzip the contents inside the apache folder, for example under `/var/www`
 2. This will create a folder sql-labs under it. else you can use git command from within `/var/www` folder.
